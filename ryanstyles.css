@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+}
+
+  body {
+    background-image: url("Box-Texture.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headerimage {
+  margin-left: 200px;
+  position: fixed;
+}
+
+.paragraph {
+  position: fixed;
+  color: white;
+  font-family: "Century Gothic",Arial,Helvetica,Sans-Serif;
+  font-size: 0.8rem;
+  webkit-font-smoothing: antialiased;
+  letter-spacing: 0.05rem;
+}
+.sidebar {
+    position: fixed;
+    height:100%;
+    left: 0;
+    top: 10px;
+    width: 200px;
+}
+
+.sidebar a {
+  color: white;
+  font-family: "Century Gothic",Arial,Helvetica,Sans-Serif;
+  font-size: 1.3rem;
+  webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  display: block;
+  padding: 6px;
+  text-decoration: none;
+  text-align: center
+  }
+
+.sociallinks {
+  margin-left: 200px;
+  padding: 30px;
+  align-items: center;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  text-align:center;
