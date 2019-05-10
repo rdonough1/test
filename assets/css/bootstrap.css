@@ -19,6 +19,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
 
 .col-md-3 {
@@ -32,6 +36,11 @@ body {
   border-radius: 5px;
 }
 
+.img.responsive {
+
+}
+
+}
 
 article,
 aside,
