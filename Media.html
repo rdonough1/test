@@ -8,6 +8,7 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/simple-sidebar-non-home.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <link href="/assets/css/lightbox.css" rel="stylesheet">
 </head>
 <body>
   <div class="d-flex" id="wrapper">
@@ -45,27 +46,30 @@
           </nav>
 
         <div class="header" id="myHeader">
-            <h1>ODESZA</h1>
+            <h1>MEDIA</h1>
           </div>
 
     <div class="row">
       <div class="column">
-        <img src="/assets/images/Show1.jpg" alt="Show1" width="200" height="200">
-        <img src="/assets/images/Show2.jpg" alt="Show2" width="200" height="200">
-        <img src="/assets/images/Show3.jpg" alt="Show3" width="200" height="200">
-        <img src="/assets/images/Show4.jpg" alt="Show4" width="200" height="200">
+        <a href="/assets/images/lightbox/Show1.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show1.jpg" alt="Show1" width="200" height="200">
+        <a href="/assets/images/lightbox/Show2.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show2.jpg" alt="Show2" width="200" height="200">
+        <a href="/assets/images/lightbox/Show3.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show3.jpg" alt="Show3" width="200" height="200">
+        <a href="/assets/images/lightbox/Show4.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show4.jpg" alt="Show4" width="200" height="200">
       </div>
+    </div>
+  <div class="row">
     <div class="column">
-        <img src="/assets/images/Show5.jpg" alt="Show5" width="200" height="200">
-        <img src="/assets/images/Show6.jpg" alt="Show6" width="200" height="200">
-        <img src="/assets/images/Show7.jpg" alt="Show7" width="200" height="200">
-        <img src="/assets/images/Show8.jpg" alt="Show8" width="200" height="200">
+        <a href="/assets/images/lightbox/Show5.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show5.jpg" alt="Show5" width="200" height="200">
+        <a href="/assets/images/lightbox/Show6.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show6.jpg" alt="Show6" width="200" height="200">
+        <a href="/assets/images/lightbox/Show7.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show7.jpg" alt="Show7" width="200" height="200">
+        <a href="/assets/images/lightbox/Show8.jpg" data-lightbox="image-1" data-title="ODESZA"><img src="/assets/images/Show8.jpg" alt="Show8" width="200" height="200">
       </div>
     </div>
 
 
   <script src="/assets/js/jquery.min.js"></script>
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/lightbox.js"></script>
   <script>
     $("#menu-toggle").click(function(e) {
       e.preventDefault();
