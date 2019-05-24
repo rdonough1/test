@@ -17,10 +17,6 @@ body {
   padding: 10px;
 }
 
-bg-div {
-  align: right;
-}
-
 p {
   color: white;
   margin-top: 5px;
@@ -84,6 +80,11 @@ table {
   padding: 30px;
 }
 
+.span {
+  font family: 'Lato', sans-serif;
+  color: #fff;
+}
+
 .column img {
   vertical-align: middle;
 }
@@ -124,8 +125,12 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
   height: auto;
 }
 
+.navbar-toggler {
+  color: #fff;
+}
+
 #sidebar-wrapper {
-  min-height: 100%;
+  min-height: 150vh;
   margin-left: -15rem;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
@@ -145,8 +150,8 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
 }
 
 #page-content-wrapper {
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 150vw;
+  min-height: 150vh;
   background-color: #000000;
   color: #fff;
 }
